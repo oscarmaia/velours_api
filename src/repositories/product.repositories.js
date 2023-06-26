@@ -1,11 +1,18 @@
 import { productsCollectioon } from "../database/mongo.js";
-
-function getProducts() {
-  return productRepository
+import 
+function addProduct(name, discount, price, image, quantity) {
+  productsCollectioon.insertOne({
+    _id: "testeIds2",
+    name,
+    discount: parseFloat(discount),
+    price: parseFloat(price),
+    image,
+    quantity,
+  });
 }
 
 const productRepository = {
-  getProducts,
+  addProduct,
 };
 
 export default productRepository;
