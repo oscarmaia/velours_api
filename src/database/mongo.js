@@ -14,4 +14,4 @@ try {
     console.log(error);
 }
 
-export const productsCollectioon = db.collection("products");
+export const productsCollection = db.collection("products");
