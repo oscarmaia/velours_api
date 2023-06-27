@@ -21,6 +21,6 @@ https://velours-api.onrender.com
                 "name": "Nome Produto",
                 "price": "0",
                 "discount": "0"
-                "quantity": "0"": "[refresh_token]"
+                "quantity": "0"
                 "image": "URL",
             }
